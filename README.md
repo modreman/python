@@ -31,7 +31,7 @@ def trapecio(f, a, b, n):
 ```
 # Función 
 
-```
+```python
 func = lambda x: (x**3)*(math.log(x))
 a = 1
 b = 2
@@ -49,7 +49,7 @@ print("Error Trapecio: ", error_t)
 ```
 
 # Resultados
-```
+```python
 Simpson:  1.8350910297771472
 Trapecio:  1.8445196165712625
 Valor real:  1.8350887222397811
