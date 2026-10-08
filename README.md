@@ -3,7 +3,7 @@ Recordando Python.....
 El año pasado en el curso de Método numéricos, a los estudiantes de ICC, tuve que recordar mi programación en Python, y usamos el Google Colab ( https://colab.research.google.com/?hl=es  )
 
 # Código
-```
+```python
 import math
 import numpy as np
 from scipy.integrate import quad
