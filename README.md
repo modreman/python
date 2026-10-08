@@ -1,7 +1,7 @@
 # python
 Recordando Python.....
 
-# Codigo
+# Código
 ```
 import math
 import numpy as np
@@ -28,7 +28,7 @@ def trapecio(f, a, b, n):
   res = (h/2)*(f(a)+f(b)+2*sum)
   return res
 ```
-# Funcion 
+# Función 
 
 ```
 func = lambda x: (x**3)*(math.log(x))
@@ -48,9 +48,10 @@ print("Error Trapecio: ", error_t)
 ```
 
 # Resultados
+```
 Simpson:  1.8350910297771472
 Trapecio:  1.8445196165712625
 Valor real:  1.8350887222397811
 Error Simpson:  0.009430894331481365
 Error Trapecio:  2.307537366075252e-06
-
+```
