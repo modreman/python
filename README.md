@@ -44,8 +44,8 @@ error_t = abs(resultado_s-real)
 print("Simpson: ", resultado_s)
 print("Trapecio: ", resultado_t)
 print("Valor real: ", real)
-print("Error Simpson: ", error_s)
-print("Error Trapecio: ", error_t)
+print(f"Error Simpson: {error_s:.4e}")
+print(f"Error Simpson: {error_t:.4e}")
 ```
 
 # Resultados
@@ -53,6 +53,6 @@ print("Error Trapecio: ", error_t)
 Simpson:  3.127008158703241
 Trapecio:  3.1045183262483182
 Valor real:  3.1415926535897922
-Error Simpson:  0.03707432734147398
-Error Trapecio:  0.014584494886551447
+Error Simpson: 3.7074e-02
+Error Simpson: 1.4584e-02
 ```
