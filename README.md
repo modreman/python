@@ -2,7 +2,7 @@
 Recordando Python.....
 
 # Codigo
-
+```
 import math
 import numpy as np
 from scipy.integrate import quad
@@ -27,7 +27,10 @@ def trapecio(f, a, b, n):
     sum += f(x)
   res = (h/2)*(f(a)+f(b)+2*sum)
   return res
+```
+# Funcion 
 
+```
 func = lambda x: (x**3)*(math.log(x))
 a = 1
 b = 2
@@ -42,6 +45,7 @@ print("Trapecio: ", resultado_t)
 print("Valor real: ", real)
 print("Error Simpson: ", error_s)
 print("Error Trapecio: ", error_t)
+```
 
 # Resultados
 Simpson:  1.8350910297771472
