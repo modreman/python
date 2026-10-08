@@ -1,5 +1,6 @@
 # python
 Recordando Python.....
+El año pasado en el curso de Método numéricos, a los estudiantes de ICC, tuve que recordar mi programaci+on en Python, y usamos el COlab Notebooks de gmail.
 
 # Código
 ```
