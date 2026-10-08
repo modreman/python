@@ -32,9 +32,9 @@ def trapecio(f, a, b, n):
 # Función 
 
 ```python
-func = lambda x: (x**3)*(math.log(x))
-a = 1
-b = 2
+func = lambda x: 4*(1-x**2)**(0.5) # area circulo radio 1.
+a = 0
+b = 1
 
 resultado_s = simpson13(func, a, b, 10)
 resultado_t = trapecio(func, a, b, 10)
@@ -50,9 +50,9 @@ print("Error Trapecio: ", error_t)
 
 # Resultados
 ```python
-Simpson:  1.8350910297771472
-Trapecio:  1.8445196165712625
-Valor real:  1.8350887222397811
-Error Simpson:  0.009430894331481365
-Error Trapecio:  2.307537366075252e-06
+Simpson:  3.127008158703241
+Trapecio:  3.1045183262483182
+Valor real:  3.1415926535897922
+Error Simpson:  0.03707432734147398
+Error Trapecio:  0.014584494886551447
 ```
